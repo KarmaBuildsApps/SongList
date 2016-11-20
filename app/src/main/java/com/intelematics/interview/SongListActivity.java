@@ -88,9 +88,7 @@ public class SongListActivity extends Activity {
             displaySelectionDialog();
         else
             retrieveSongListFromDB();
-
     }
-
 
     public void displaySelectionDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
